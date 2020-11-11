@@ -24,5 +24,5 @@ jobs:
         with:
             subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
             resourceGroupName: ${{ github.event.inputs.resourceGroupName }}
-            template: ./Hands-on-Lab/templates/deploy-vnet-with-bastion.json
-            parameters: ./Hands-on-Lab/templates/deploy-vnet-with-bastion.parameters.json
+            template: ./Hands-on-Lab/templates/deploy-vm-as-domain-member.json
+            parameters: ./Hands-on-Lab/templates/deploy-vm-as-domain-member.parameters.json
