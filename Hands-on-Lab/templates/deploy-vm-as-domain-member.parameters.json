@@ -8,6 +8,9 @@
       "subnetName": {
           "value": "member-subnet"
       },
+      "virtualMachineName": {
+        "value": "Member-SVR"
+      },
       "domainToJoin": {
           "value": "mcw.local"
       },
